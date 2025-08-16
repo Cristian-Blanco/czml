@@ -1,5 +1,5 @@
 async function init() {
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyYzZjNjkwNy1hNmJjLTQ3Y2EtOWQ5NS0yYzM4Mzk0YzkzNjciLCJpZCI6MzE4NTIsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTYwNjUyNzB9.RvMzC5gf0JKfZzhl3nX0g60_MqWICPLGfshdhNhscH4';
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ZjBjZWNjNi1lN2E2LTQxN2EtOWY2MS0xZjliMjIxMDZmMzUiLCJpZCI6MzMxMzU3LCJpYXQiOjE3NTUwNDI1NTB9.CLqrLXgbk4VfneVH0NK8xmkyEll98A0whFdesGkvMTo';
 
     const viewer = new Cesium.Viewer('cesiumContainer', {
         terrain: Cesium.Terrain.fromWorldTerrain(),
